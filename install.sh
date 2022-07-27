@@ -3,7 +3,7 @@
 # Veapysh: is a terminal utility available on Linux systems for automated administration of basic scripts.
 # License: GNU General Public License v2.0
 # Developed by: Angel Gabriel Mortera Gual
-# Github project: URL
+# Github project: https://github.com/TheWatcherMultiversal/Veapysh
 
 # Install program =======================================================================================
 
