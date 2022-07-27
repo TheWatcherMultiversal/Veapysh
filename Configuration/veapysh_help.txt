@@ -13,4 +13,3 @@ For more information or help, visit the project page.
 <https://github.com/TheWatcherMultiversal/Veapysh>
 Report bugs in this email.
 <universepenguin@protonmail.com>
-
