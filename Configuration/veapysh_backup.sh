@@ -4,7 +4,7 @@
 # Only modify the source code if you know what you are doing.
 
 # Developed by: Angel Gabriel Mortera Gual.
-# Github: https://github.com/TheWatcherMultiversal
+# Github: https://github.com/TheWatcherMultiversal/Veapysh
 
 # Checking if the backup script exists.
 
