@@ -1,0 +1,62 @@
+." Process this file with
+." groff -man -Tascii veapysh.1
+."
+.TH veapysh "1" "" "" "User commands"
+
+.SH NAME
+veapysh - Veapysh
+
+.SH SYNOPSIS
+.B veapysh
+.OP OPTIONS
+
+.SH DESCRIPTION
+.B veapysh
+is a terminal utility that will help you automate scripts by specifying some parameters. It currently has the following utilities:
+
+.RS
+.nf
+- Backup script:   a simple script to take a backup for a certain period of time.
+- Upgrade script:  a simple script to perform a system update for a certain period of time.
+.RE
+
+This is a script to give you information about the utilities of Veapysh.
+
+
+.SH OPTIONS
+
+.B "-l | --list"\fR
+		List active scripts.
+
+.B "-h | --help"\fR
+		Prints help.
+
+.B "-v | --version"\fR
+	  Prints version.
+
+.SH FILES
+.TP
+.I
+/var/log/veapysh.log
+.TP
+.I
+/usr/sbin/veapysh
+.TP
+.I
+/sbin/veapysh  
+
+
+.SH AUTHOR 
+.PP
+Developed by Angel Gabriel Mortera Gual <https://github.com/TheWatcherMultiversal>
+
+
+.SH REPORTING BUGS
+.PP
+Report errors or suggestions to my email <universepenguin@protonmail.com>
+
+.SH SEE ALSO
+.PP
+.br
+More information in <URLdelProyecto>
+

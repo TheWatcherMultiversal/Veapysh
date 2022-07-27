@@ -1,0 +1,16 @@
+Usage: veapysh [Options]
+	Makes use of Veapysh utilities.
+
+	Call the utilities available from Veapysh for simple, easy 
+	and end-user friendly automatic script management.	
+
+Options:
+	-l, --list	List active scripts.
+	-h, --help	Prints help.
+	-v, --version	Prints version.
+
+For more information or help, visit the project page.
+<URL>
+Report bugs in this email.
+<universepenguin@protonmail.com>
+
