@@ -61,7 +61,7 @@ def app():
                 subprocess.run("clear", shell=True)
                 print(Fore.CYAN + "\r\nFirst choose the hard drive you want to restore. Press")
                 print("\"q\" to cancel the process.\r\n")
-                print(Fore.YELLOW +"Example:"  + Fore.RESET + " sda\r\n")
+                print(Fore.YELLOW +"Example:"  + Fore.RESET + " sda1\r\n")
                 print(Fore.GREEN + "More info:" + Fore.RESET + " https://tldp.org/LDP/sag/html/partitions.html \r\n")
                 subprocess.run("df | head -1", shell=True)
                 subprocess.run("df | grep sd; echo ''", shell=True)
