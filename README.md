@@ -12,6 +12,7 @@ To install Veapysh, simply clone this repository with the following commands:
 We enter the folder and execute the following command:
 
     cd Veapysh
+    chmod +x ./install.sh
     ./install.sh
     
 - Note: To remove the program, simply run the same command with the -u option to revert the changes.
