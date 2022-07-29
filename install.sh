@@ -20,6 +20,7 @@ case "$1" in
 	sudo update-rc.d veapysh-generatorupgrades remove
 	sudo rm /etc/init.d/veapysh-generatorbackups
 	sudo rm /etc/init.d/veapysh-generatorupgrades
+	sudo rm -Rf /usr/share/veapysh/
 	echo "Deleted program."
 	;;
 *)
@@ -54,6 +55,9 @@ case "$1" in
 	sudo chmod u=rwx,g=rx,o=rx /etc/veapysh/Configuration/s1/backup_script.py
 	sudo chmod u=rwx,g=rx,o=rx /etc/veapysh/Configuration/s1/list_backups.sh
 	sudo chmod u=rwx,g=rx,o=rx /etc/veapysh/Configuration/s2/upgrade_script.py
+	sudo mkdir /usr/share/veapysh/
+	sudo cp ./usr/share/veapysh/veapysh-requeriments.sh /usr/share/veapysh/
+	sudo chmod u=rxw,g=rx,o=rx /usr/share/veapysh/veapysh-requeriments.sh
 	sleep 2s
 
 	echo ""; echo "Extracting executable."
@@ -62,8 +66,9 @@ case "$1" in
 	sleep 2s
 
 	echo ""; echo "Adding man page."
-	sudo gzip ./Man\ page/veapysh.1
+	gzip ./Man\ page/veapysh.1
 	sudo cp ./Man\ page/veapysh.1.gz /usr/share/man/man1/
+	gunzip ./Man\ page/veapysh.1.gz
 	sleep 2s
 
 	echo ""; echo "Finishing process. Run the Veapysh command to verify the installation."
