@@ -6,20 +6,22 @@
 # Github project: https://github.com/TheWatcherMultiversal/Veapysh
 
 # Options
-VERSION_VP="Veapysh 0.0.1"
+VERSION_VP="Veapysh v0.0.2"
 
+set -e
 
 case "$1" in
 -h|--help)
-	cat /etc/veapysh/Configuration/veapysh_help.txt	
-	;;
+        cat /etc/veapysh/Configuration/veapysh_help.txt 
+        ;;
 -l|--list)
-	sudo /etc/veapysh/Configuration/veapysh_viewprocess.sh
-	;;
+        sh /usr/share/veapysh/veapysh-requeriments.sh
+        sudo /etc/veapysh/Configuration/veapysh_viewprocess.sh -l
+        ;;
 -v|--version)
         echo "$VERSION_VP"
         ;;  
 *)
-	sudo python3 /etc/veapysh/Configuration/veapysh_configuration.py
+        sh /usr/share/veapysh/veapysh-requeriments.sh
+        sudo python3 /etc/veapysh/Configuration/veapysh_configuration.py
 esac
-
