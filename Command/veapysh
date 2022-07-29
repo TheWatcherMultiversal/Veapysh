@@ -6,7 +6,7 @@
 # Github project: https://github.com/TheWatcherMultiversal/Veapysh
 
 # Options
-VERSION_VP="Veapysh v0.0.2"
+VERSION_VP="Veapysh v1.0.0"
 
 set -e
 
