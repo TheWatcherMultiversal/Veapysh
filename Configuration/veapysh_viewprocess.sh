@@ -6,15 +6,15 @@
 echo ""
 echo 'Script:                              Status:'
 if [ -f /etc/init.d/veapysh-generatorbackups ]; then
-        echo -e "veapysh-generatorbackups" "         (\e[32mEnabled\e[0m)"
+        echo "veapysh-generatorbackups" "         (\e[32mEnabled\e[0m)"
 else
-        echo -e "veapysh-generatorbackups" "            (\e[31mDisabled\e[0m)"
+        echo "veapysh-generatorbackups" "            (\e[31mDisabled\e[0m)"
 fi
 
 if [ -f /etc/init.d/veapysh-generatorupgrades ]; then
-        echo -e "veapysh-generatorupgrades" "           (\e[32mEnabled\e[0m)"
+        echo "veapysh-generatorupgrades" "           (\e[32mEnabled\e[0m)"
 else
-        echo -e "veapysh-generatorupgrades" "           (\e[31mDisabled\e[0m)"
+        echo "veapysh-generatorupgrades" "           (\e[31mDisabled\e[0m)"
 fi       
 
 case $1 in
@@ -22,7 +22,7 @@ case $1 in
         echo ""
         ;;
 *)
-        echo ""; echo -e "Press" "\e[32mENTER\e[0m" " to finish the process."
+        echo ""; echo "Press" "\e[32mENTER\e[0m" " to finish the process."
 
         i=1
         read OPX
