@@ -19,7 +19,7 @@ We enter the folder and execute the following command:
 
 Now we just test if the program has been installed correctly by executing the following command in the terminal.
 
-    veapysh
+    sudo veapysh
     
 With this, we should have the Veapysh utility up and running.
 
