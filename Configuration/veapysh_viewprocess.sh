@@ -6,7 +6,7 @@
 echo ""
 echo 'Script:                              Status:'
 if [ -f /etc/init.d/veapysh-generatorbackups ]; then
-        echo "veapysh-generatorbackups" "         (\e[32mEnabled\e[0m)"
+        echo "veapysh-generatorbackups" "            (\e[32mEnabled\e[0m)"
 else
         echo "veapysh-generatorbackups" "            (\e[31mDisabled\e[0m)"
 fi
