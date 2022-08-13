@@ -1,5 +1,8 @@
 <div align="center">  
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00382b&height=130&section=header&text=Veapysh&fontSize=39&fontColor=fff&animation=twinkling&fontAlignY=35"/> 
+</div>
+
+<div align="center"> 
 <p>Technologies used:</p>
 <a href="#!" target="_blank"><img src="https://img.shields.io/badge/-Linux-1e1f20?style=for-the-badge&logo=linux&logoColor=yellow"</a>
 <a href="#!" target="_blank"><img src="https://img.shields.io/badge/-Python-141b4a?style=for-the-badge&logo=python&logoColor=green"</a>
