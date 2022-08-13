@@ -7,10 +7,6 @@
 <a href="#!" target="_blank"><img src="https://img.shields.io/badge/-Bash-082405?style=for-the-badge&logo=gnu bash&logoColor=white"</a>
 <a href="#!" target="_blank"><img src="https://img.shields.io/badge/-Git-161618?style=for-the-badge&logo=git&logoColor=orange"</a>
 </div>
-    
-##
-    
-A terminal utility programmed in python and bash script, for the automation of basic processes for the end user. Only available on Linux systems. This utility makes use of the commands offered by the Linux terminal to automate simple tasks such as making backup copies for a certain time. It also offers a registry file to see in real time the changes made by the program.
 
 ## Install veapysh
 To install Veapysh, simply clone this repository with the following commands:
