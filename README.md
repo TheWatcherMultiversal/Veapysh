@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00382b&height=130&section=header&text=Veapysh&fontSize=39&fontColor=fff&animation=twinkling&fontAlignY=35"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3fbe5a&height=130&section=header&text=Veapysh&fontSize=39&fontColor=fff&animation=twinkling&fontAlignY=35"/> 
 
 <div align="center"> 
 <p>Technologies used:</p>
