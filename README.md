@@ -1,6 +1,4 @@
-<div align="center">  
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00382b&height=130&section=header&text=Veapysh&fontSize=39&fontColor=fff&animation=twinkling&fontAlignY=35"/> 
-</div>
 
 <div align="center"> 
 <p>Technologies used:</p>
@@ -10,7 +8,7 @@
 <a href="#!" target="_blank"><img src="https://img.shields.io/badge/-Git-161618?style=for-the-badge&logo=git&logoColor=orange"</a>
 </div>
     
-#
+##
     
 A terminal utility programmed in python and bash script, for the automation of basic processes for the end user. Only available on Linux systems. This utility makes use of the commands offered by the Linux terminal to automate simple tasks such as making backup copies for a certain time. It also offers a registry file to see in real time the changes made by the program.
 
