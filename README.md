@@ -24,7 +24,7 @@ We enter the folder and execute the following command:
     chmod +x ./install.sh
     ./install.sh
     
-- Note: To remove the program, simply run the same command with the -u option to revert the changes.
+- Note: To remove the program, simply run the same command with the `-u` option to revert the changes.
 
 Now we just test if the program has been installed correctly by executing the following command in the terminal.
 
@@ -44,7 +44,7 @@ In these options we can activate the scripts that are available at the moment, f
 
 ![1](https://github.com/TheWatcherMultiversal/Veapysh/blob/main/View/Screenshots/Screenshot_2.png?raw=true)
 
-In the case of creating the backup script, it will ask us to choose the partition to perform the backup. It is important to write the partition correctly to avoid problems with the program, since it uses the "dd" command to work correctly. Example:
+In the case of creating the backup script, it will ask us to choose the partition to perform the backup. It is important to write the partition correctly to avoid problems with the program, since it uses the `dd` command to work correctly. Example:
 
 ![1](https://github.com/TheWatcherMultiversal/Veapysh/blob/main/View/Screenshots/Screenshot_3.png?raw=true)
 
