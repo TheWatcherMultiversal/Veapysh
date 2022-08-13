@@ -6,10 +6,6 @@
 <a href="#!" target="_blank"><img src="https://img.shields.io/badge/-Bash-082405?style=for-the-badge&logo=gnu bash&logoColor=white"</a>
 <a href="#!" target="_blank"><img src="https://img.shields.io/badge/-Git-161618?style=for-the-badge&logo=git&logoColor=orange"</a>
 </div>
-
-<div>  
-<p></p>
-<div>  
     
 #
     
