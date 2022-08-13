@@ -11,10 +11,9 @@
 <p></p>
 <div>  
     
-<div> 
-<p>A terminal utility programmed in python and bash script, for the automation of basic processes for the end user. Only available on Linux systems. This utility makes use of the commands offered by the Linux terminal to automate simple tasks such as making backup copies for a certain time. It also offers a registry file to see in real time the changes made by the program.
-</p>
-</div>
+#
+    
+A terminal utility programmed in python and bash script, for the automation of basic processes for the end user. Only available on Linux systems. This utility makes use of the commands offered by the Linux terminal to automate simple tasks such as making backup copies for a certain time. It also offers a registry file to see in real time the changes made by the program.
 
 ## Install veapysh
 To install Veapysh, simply clone this repository with the following commands:
