@@ -56,7 +56,7 @@ case "$1" in
 	sudo chmod u=rwx,g=rx,o=rx /etc/veapysh/Configuration/s1/list_backups.sh
 	sudo chmod u=rwx,g=rx,o=rx /etc/veapysh/Configuration/s2/upgrade_script.py
 	sudo mkdir /usr/share/veapysh/
-	sudo cp ./usr/share/veapysh/veapysh-requeriments.sh /usr/share/veapysh/
+	sudo cp ./Other/veapysh-requeriments.sh /usr/share/veapysh/
 	sudo chmod u=rxw,g=rx,o=rx /usr/share/veapysh/veapysh-requeriments.sh
 	sleep 2s
 
