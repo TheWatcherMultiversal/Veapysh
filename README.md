@@ -12,7 +12,22 @@
     
 A terminal utility programmed in python and bash script, for the automation of basic processes for the end user. Only available on Linux systems. This utility makes use of the commands offered by the Linux terminal to automate simple tasks such as making backup copies for a certain time. It also offers a registry file to see in real time the changes made by the program.
     
-## Install veapysh
+## Install via deb package (Recommended)
+To install Veaysh with the dpkg package manager, we just download the deb package at this link: 
+
+<a href="https://github.com/TheWatcherMuliversal/Veapysh/download/v1.0.1/Veapysh_stable-release_1.0.1_.deb" target="_blank">📦 Download deb package</a>
+
+When we have our download ready, we go to the place where our deb package is located and execute the following command:
+
+    sudo dpkg -i Veapysh/download/v1.0.1/Veapysh_stable-release_1.0.1_.deb
+    
+- Note: If we find any missing dependencies, it's just a matter of installing them with the `sudo apt install` command
+
+Now we just need to check if the program was installed correctly, for this we execute the following:
+
+    sudo veapysh
+
+## Install Install via git
 To install Veapysh, simply clone this repository with the following commands:
     
     cd ~/Downloads
