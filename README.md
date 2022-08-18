@@ -27,7 +27,7 @@ Now we just need to check if the program was installed correctly, for this we ex
 
     sudo veapysh
 
-## Install Install via git
+## Install via git
 To install Veapysh, simply clone this repository with the following commands:
     
     cd ~/Downloads
