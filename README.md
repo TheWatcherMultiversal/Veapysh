@@ -15,7 +15,7 @@ A terminal utility programmed in python and bash script, for the automation of b
 ## Install via deb package (Recommended)
 To install Veaysh with the dpkg package manager, we just download the deb package at this link: 
 
-<a href="https://github.com/TheWatcherMuliversal/Veapysh/download/v1.0.1/Veapysh_stable-release_1.0.1_.deb" target="_blank">📦 Download deb package</a>
+<a href="https://github.com/TheWatcherMultiversal/Veapysh/releases/download/v1.0.1/Veapysh_stable-release_1.0.1_.deb" target="_blank">📦 Download deb package</a>
 
 When we have our download ready, we go to the place where our deb package is located and execute the following command:
 
