@@ -10,6 +10,6 @@ Options:
 	-v, --version	Prints version.
 
 For more information or help, visit the project page.
-<https://github.com/TheWatcherMultiversal/Veapysh>
-Report bugs in this email.
-<universepenguin@protonmail.com>
+   <https://github.com/TheWatcherMultiversal/Veapysh>
+   Report bugs in this email.
+   <universepenguin@protonmail.com>
